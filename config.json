@@ -1,0 +1,30 @@
+{
+	"version": "1.0.0",
+	"debug": false,
+	"log_options": {
+		"level": "info",
+		"filename": "./logs/api",
+		"filesize": "1000000",
+		"filecount": "100"
+	},
+	"host": "0.0.0.0",
+	"port": 3066,
+	"ws_port": 5020,
+	"skywelld_servers": {
+		"server":"wss://s.jingtum.com:5020",
+		"local_sign":true
+	},
+	"freezed": {
+		"reserved": 20.0,
+		"each_freezed": 5.0
+	},
+
+	"base_currency": "SWT",
+	"issuer" : "jBciDE8Q3uJjf111VeiUNM775AMKHEbBLS",
+	"ssl_enabled": false,
+	"ssl": {
+		"key_path": "./ssl/server.key",
+		"cert_path": "./ssl/server.crt",
+		"reject_unauthorized": false
+	}
+}
